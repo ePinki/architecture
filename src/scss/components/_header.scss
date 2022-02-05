@@ -1,0 +1,131 @@
+header {
+    
+    min-height: 905px;
+    background: linear-gradient(90deg, rgba(49,49,49,1) 32%, rgba(28,28,28,1) 23%);
+}
+
+.header-img {
+    position: absolute;
+    margin-left: 1004px;
+}
+
+.link--active {
+    color: #C8C7C7;
+}
+
+.logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #FFFFFF;
+    height: 30px;
+    width: 90px;
+    padding-top: 10px;
+}
+
+.navigation {
+    display: flex;
+    padding-top: 30px;
+
+    &__list {
+        margin-left: 350px;
+    }
+
+    &__item {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+    }
+
+    &__item:not(:first-child) {
+        margin-left: 35px;
+    }
+
+    &__link {
+        color: #696969;
+    }
+
+    &__link:hover {
+        color: #C8C7C7;
+        transition: 0.5s;
+    }
+
+}
+
+.header-name {
+    display: flex;
+    margin-top: 215px;
+
+    &__list {
+        transform: rotate(-90deg);
+        margin-top: 35px;
+        margin-left: -60px;
+    }
+
+    &__item {
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.04em;
+    }
+
+    &__item:not(:first-child) {
+        margin-left: 55px;
+    }
+
+    &__link {
+        color: #696969;
+    }
+
+    &__link:hover {
+        color: #C8C7C7;
+        transition: 0.5s;
+    }
+
+    & h1 {
+        font-size: 90px;
+        line-height: 115px;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        padding-left: 10px;
+        margin: 0;
+        margin-left: 60px;
+    }
+}
+
+.header-info {
+    display: flex;
+    margin-top: 225px;
+
+    &__phone a {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 145.81%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #696969;
+    }
+
+    &__phone a:hover {
+        color: #C8C7C7;
+        transition: 0.5s;
+    }
+
+    &__phone--wrapper {
+        padding-top: 54px;
+    }
+
+    &__descr {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 145.81%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #999999;
+        margin-left: 275px;
+    }
+}
